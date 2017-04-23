@@ -1,0 +1,33 @@
+{
+  "name": "is-aws-account-id",
+  "version": "0.0.0",
+  "description": "Check if a string is an AWS Account ID",
+  "license": "MIT",
+  "repository": "SamVerschueren/is-aws-account-id",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "aws",
+    "account",
+    "accountid",
+    "id",
+    "amazon",
+    "webservices"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
